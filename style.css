@@ -1,0 +1,66 @@
+/* style.css */
+body {
+  background: linear-gradient(to right, #ffeaa7, #fab1a0);
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  color: #2d3436;
+  font-size: 2.5rem;
+}
+
+.options {
+  margin: 10px;
+}
+
+button, select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fd79a8;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e84393;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #ffeaa7;
+  border-radius: 10px;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+#scoreboard {
+  font-size: 1.2rem;
+  margin: 10px;
+}
